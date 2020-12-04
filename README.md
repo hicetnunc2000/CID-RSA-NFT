@@ -1,14 +1,16 @@
+```
 CENSORSHIP RESISTANT PATENT
 
 CID-SHA3-RSA-NFT digital certification ALGORITHM
-
-https://ipfs.io/ipfs/QmXEh8MMNk4waEWXsK9JWoNau4RCRzwPvYdAZc6cZPFhDY
+```
 
 Tezos Mainnet: KT1M2Gng6zuDEy7PFivXPDYgrNnYEfLsc1z1#16
 
-Merkle origin: QmXEh8MMNk4waEWXsK9JWoNau4RCRzwPvYdAZc6cZPFhDY
+Merkle origin: [QmXEh8MMNk4waEWXsK9JWoNau4RCRzwPvYdAZc6cZPFhDY](https://ipfs.io/ipfs/QmXEh8MMNk4waEWXsK9JWoNau4RCRzwPvYdAZc6cZPFhDY)
 
 Merkle branches: {"pk":"[QmQD4Aa2BZkVHQmNAG8Bhm3DN3SsTCjZ5Qvy5n577a9FX5](https://ipfs.io/ipfs/QmQD4Aa2BZkVHQmNAG8Bhm3DN3SsTCjZ5Qvy5n577a9FX5)","sig":"[QmQggb9MgtF8KWL3xPNFBjdDXHx7tCvSAvRYFxRwfqxmJj](https://ipfs.io/ipfs/QmQggb9MgtF8KWL3xPNFBjdDXHx7tCvSAvRYFxRwfqxmJj)","cid":"[QmYiDxpDPXECmkN5hFqSTafF4Q7uHsGPmHSsYv67gXmMaV](https://ipfs.io/ipfs/QmYiDxpDPXECmkN5hFqSTafF4Q7uHsGPmHSsYv67gXmMaV)"}
+
+```
 
 Public Key:
 MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2+z4mDNpNmgeQ5b1r8ud0UFQh
@@ -31,6 +33,11 @@ Dvx0W3JSDzfQMXJMXJHZXTm2akFUNof7z4jJfiMuQaWlhm4BpEOVbqMRD5il1hKj
 BVMxppV+AEuJDX6pgzUCQHEvkQ+aQVr1V1N9BSBN4rJyRYk5pJQqeBZQIwrs4e8O
 U+41Ii6ca3dGtoXd/AvZKbS7XrTyQTcxwX1BCDXvD98=
 
+```
+
+signing
+
+```
 echo -n 'QmYiDxpDPXECmkN5hFqSTafF4Q7uHsGPmHSsYv67gXmMaV' | openssl dgst -sha3-512
 (-binary)
 
@@ -58,7 +65,12 @@ openssl dgst -sha256 -sign private.pem -out hash.sig hash
 000000e0  bd ef bf bd ef bf bd 65  58 ef bf bd 23 6e 4d 1f  |.......eX...#nM.|
 000000f0  30 ef bf bd ef bf bd 14  ef bf bd 65 4b           |0..........eK|
 000000fd
+```
 
+verification
+
+```
 openssl dgst -sha256 -verify public.pem -signature hash.sig hash
 
 Verified OK
+```
