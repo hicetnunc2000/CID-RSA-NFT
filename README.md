@@ -8,7 +8,7 @@ Tezos Mainnet: KT1M2Gng6zuDEy7PFivXPDYgrNnYEfLsc1z1#16
 
 Merkle origin: QmXEh8MMNk4waEWXsK9JWoNau4RCRzwPvYdAZc6cZPFhDY
 
-Merkle branches: {"pk":"[ipfs.io/ipfs/QmQD4Aa2BZkVHQmNAG8Bhm3DN3SsTCjZ5Qvy5n577a9FX5](QmQD4Aa2BZkVHQmNAG8Bhm3DN3SsTCjZ5Qvy5n577a9FX5)","sig":"[ipfs.io/ipfs/QmQggb9MgtF8KWL3xPNFBjdDXHx7tCvSAvRYFxRwfqxmJj](QmQggb9MgtF8KWL3xPNFBjdDXHx7tCvSAvRYFxRwfqxmJj)","cid":"[ipfs.io/ipfs/QmYiDxpDPXECmkN5hFqSTafF4Q7uHsGPmHSsYv67gXmMaV](QmYiDxpDPXECmkN5hFqSTafF4Q7uHsGPmHSsYv67gXmMaV)"}
+Merkle branches: {"pk":"[QmQD4Aa2BZkVHQmNAG8Bhm3DN3SsTCjZ5Qvy5n577a9FX5](ipfs.io/ipfs/QmQD4Aa2BZkVHQmNAG8Bhm3DN3SsTCjZ5Qvy5n577a9FX5)","sig":"[QmQggb9MgtF8KWL3xPNFBjdDXHx7tCvSAvRYFxRwfqxmJj](ipfs.io/ipfs/QmQggb9MgtF8KWL3xPNFBjdDXHx7tCvSAvRYFxRwfqxmJj)","cid":"[QmYiDxpDPXECmkN5hFqSTafF4Q7uHsGPmHSsYv67gXmMaV](ipfs.io/ipfs/QmYiDxpDPXECmkN5hFqSTafF4Q7uHsGPmHSsYv67gXmMaV)"}
 
 Public Key:
 MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2+z4mDNpNmgeQ5b1r8ud0UFQh
